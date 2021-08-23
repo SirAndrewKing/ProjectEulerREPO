@@ -1,2 +1,2 @@
 # ProjectEulerREPO
-REPO for Project Euler problems/solutions
+REPO for Project Euler problems/solutions.
