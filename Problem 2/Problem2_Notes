@@ -1,0 +1,10 @@
+NOTES
+fib sequence is next number(N) is the sum of the two previous numbers (a + b).
+N = a + b shown as 0 + 1 = 1, 1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5,  etc.
+
+a + b = N ..
+first number(a) = Fibonacci sequence number minus 1... 
+second number(b) = Fibonacci sequence number minus 2..
+sum(N) = sum of the first and second number.
+
+If you initialize an array..
