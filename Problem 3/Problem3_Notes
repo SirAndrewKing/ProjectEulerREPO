@@ -1,0 +1,45 @@
+Problem 3
+~~~~~~~~~
+Largest Prime Factor
+~~~~~~~~~~~~~~~~~~~~
+
+The prime factors of 13195 are 5, 7, 13 and 29.
+
+What is the largest prime factor of the number 600851475143 ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Prime factorization. 
+  - Prime factor of 10 [2, 5] both prime numbers
+  - Prime factor of 24 [2, 12] 2 is prime. [2,2,6] new 2 is prime
+  		[2, 2, 2, 3] ... [2, 3] is prime of 6
+
+ problem 3 is asking for largest prime factor of N...
+
+ 10[2,5] largest prime is 5
+
+ do math find largest prime by comparison?
+
+
+ MATH
+ Modulus with no remainder?
+-if (n % i !== 0)
+	if else ( add i to array)
+		else (continue?)
+
+i cannot equal n and skips 1?
+(n != i || n % !== 0) should work. 
+
+^^^ didn't get me there. this worked.
+if (n % i === 0)
+  then push to array(this array provides all factors of n)
+  else do nothing
+
+  took a long break because of life. came back to it today
+  [Sept21,21]
+
+  finished the problem with a bit of help from google. no the answer just stuff along the way to the answer.
+
+  writing the comments now.
+
+  i may not make notes fror every problem. we will see.
