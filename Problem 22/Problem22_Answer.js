@@ -25,31 +25,27 @@ function alphaNum(arg) {
 	return num;
 };
 
-
-
-function shiftedArr(arg) {
+function nameScoreSum(arg) {
 	let name = '';
 	let letterVal = 0;
-	//console.log('this was removed:', shifted)
+	let nameScoreArr = [];
+
+	// iterates through each name
 	for (let i = 0; i < nameList.length; i++) {
 		let name = nameList[i]
 		nameList[i]
+		letterVal = 0
+
+		// iterates through each letter of each name
 		for (let j = 0; j < name.length; j++) {
-			console.log(name[j])
 			letterVal += alphaNum(name[j])
 			
-		};	
-		console.log(letterVal, "here")
+		};
+		nameScoreArr.push(letterVal* (i + 1))
 	};
+	// returns the sum of all items in nameScoreArr
+	return nameScoreArr.reduce((a, b) => a + b, 0);
 };
 
 
-
-
-//console.log(character)
-//shiftedArr(alphaNum)
-//console.log(nameList)
-
-shiftedArr(nameList)
-//console.log(nameList)
-//console.log('Length of list:', nameList.length)
+console.log(nameScoreSum(nameList))
